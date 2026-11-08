@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+
+# Compiled executables and build output
+build/
+
+# Object files
+*.o
+
+# Debug symbols
+*.dSYM/
