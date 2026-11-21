@@ -1,5 +1,6 @@
 #include<stdio.h>
-
+//Note: When you ask for fib of a partivular number, you're basically asking for the 
+//value at that particular index.
 int fib(int n){
 
     if(n<=1){
