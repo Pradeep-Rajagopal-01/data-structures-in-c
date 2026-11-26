@@ -1,7 +1,8 @@
 
 #include <stdio.h>
 #define QUEUESIZE 5
-
+//One limitation: Once rear reaches the last array position, 
+ //you cannot reuse freed positions at the beginning until the queue becomes completely empty.
 struct queues
 {
     int queue[QUEUESIZE];
