@@ -15,7 +15,7 @@ void insert(int value)
 
     if (nextRear == q.front)
     {
-        printf("Queue Overflow");
+        printf("Queue Overflow\n");
     }
     else
     {
@@ -24,7 +24,14 @@ void insert(int value)
     }
 }
 
-void delete(){
+void delete()
+{
+    if (q.front == q.rear)
+    {
+        printf("Queue is empty\n");
+        return;
+    }
+
     q.front = (q.front + 1) % QUEUESIZE;
 }
 
